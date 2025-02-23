@@ -201,17 +201,20 @@ button {
   text-transform: uppercase;
   color: #d5d5d5;
 }
-@media screen and (max-width: 767px) {
-  .header__logo h2 {
-    font-size: 72px;
-    line-height: 56px;
-  }
-}
 .header__logo p {
   font-family: "Buyan", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   color: #d5d5d5;
+}
+@media screen and (max-width: 767px) {
+  .header__logo h2 {
+    font-size: 72px;
+    line-height: 56px;
+  }
+  .header__logo p {
+    font-size: 20px;
+  }
 }
 .header__logo h2,
 .header__logo p {
