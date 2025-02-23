@@ -76,7 +76,6 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 html,
 body {
@@ -531,6 +530,10 @@ button {
   height: auto;
   cursor: pointer;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 @media screen and (max-width: 767px) {
   .main__image-c {
