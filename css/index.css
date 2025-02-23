@@ -1,8 +1,7 @@
 @font-face {
   font-family: "BernierShade";
   src: local("BernierShade"),
-    /* Если шрифт установлен локально */
-      url("../fonts/berniershade_regular.otf") format("opentype");
+    url("../fonts/berniershade_regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -10,21 +9,16 @@
 
 @font-face {
   font-family: "BLACEB";
-  src: local("BLACEB"),
-    /* Если шрифт установлен локально */ url("../fonts/BLACEB_.TTF")
-      format("truetype");
+  src: local("BLACEB"), url("../fonts/BLACEB_.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* Buyan - Важно разделить по весу */
 @font-face {
   font-family: "Buyan";
-  src: local("Buyan Bold"),
-    /* Если шрифт установлен локально */ url("../fonts/BuyanBold.ttf")
-      format("truetype");
-  font-weight: bold; /* Или 700 - оба варианта правильны */
+  src: local("Buyan Bold"), url("../fonts/BuyanBold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -32,18 +26,15 @@
 @font-face {
   font-family: "Buyan";
   src: local("Buyan Regular"),
-    /* Если шрифт установлен локально */ url("../fonts/BuyanRegular.ttf")
-      format("truetype");
-  font-weight: normal; /* Или 400 */
+    url("../fonts/BuyanRegular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Buyan";
-  src: local("Buyan Thin"),
-    /* Если шрифт установлен локально */ url("../fonts/BuyanThin.ttf")
-      format("truetype");
+  src: local("Buyan Thin"), url("../fonts/BuyanThin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -52,8 +43,7 @@
 @font-face {
   font-family: "ExtremeGlitch";
   src: local("Extreme Glitch"),
-    /* Если шрифт установлен локально */ url("../fonts/Extreme Glitch.otf")
-      format("opentype");
+    url("../fonts/Extreme Glitch.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -61,9 +51,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"),
-    /* Если шрифт установлен локально */ url("../fonts/Montserrat.ttf")
-      format("truetype");
+  src: local("Montserrat"), url("../fonts/Montserrat.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -72,8 +60,7 @@
 @font-face {
   font-family: "Montserrat_0";
   src: local("Montserrat_0"),
-    /* Если шрифт установлен локально */ url("../fonts/Montserrat_0.ttf")
-      format("truetype");
+    url("../fonts/Montserrat_0.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -81,9 +68,7 @@
 
 @font-face {
   font-family: "SkateBrand";
-  src: local("Skate Brand"),
-    /* Если шрифт установлен локально */ url("../fonts/Skate Brand.otf")
-      format("opentype");
+  src: local("Skate Brand"), url("../fonts/Skate Brand.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -91,6 +76,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 html,
 body {
@@ -533,7 +519,7 @@ button {
 .main__image-l svg {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   fill: #d5d5d5;
   transition: all 0.3s ease-out;
 }
@@ -554,7 +540,7 @@ button {
 .main__image-c svg {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   fill: #d5d5d5;
   transition: all 0.3s ease-out;
 }
@@ -575,7 +561,7 @@ button {
 .main__image-r svg {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   fill: #d5d5d5;
   transition: all 0.3s ease-out;
 }
