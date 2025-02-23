@@ -167,25 +167,17 @@ button {
   .header__wrapper {
     justify-content: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 40px;
   }
 }
-.header__title {
+.top-title {
   display: none;
 }
 @media screen and (max-width: 960px) {
-  .header__title {
+  .top-title {
+    width: 300px;
     display: block;
-    font-family: "Buyan", sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: #d5d5d5;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 480px) {
-  .header__title {
-    max-width: 160px;
+    fill: #d5d5d5;
   }
 }
 .header__logo {
