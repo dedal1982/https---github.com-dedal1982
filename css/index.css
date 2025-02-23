@@ -492,6 +492,9 @@ button {
   align-items: center;
   gap: 110px;
 }
+.main__social-mobile {
+  display: none;
+}
 @media screen and (max-width: 1220px) {
   .main__inner {
     width: 100%;
@@ -502,6 +505,12 @@ button {
 @media screen and (max-width: 767px) {
   .main__inner {
     flex-direction: column;
+  }
+  .main__social {
+    display: none;
+  }
+  .main__social-mobile {
+    display: flex;
   }
 }
 .main__image-l {
