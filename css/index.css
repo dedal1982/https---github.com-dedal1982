@@ -518,7 +518,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .main__image-l {
-    width: 200px;
+    width: 300px;
   }
 }
 .main__image-l svg {
@@ -564,7 +564,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .main__image-r {
-    width: 200px;
+    width: 300px;
   }
 }
 .main__image-r svg {
