@@ -189,44 +189,20 @@ button {
   }
 }
 .header__logo {
-  display: flex;
-  flex-direction: column;
-  z-index: 3;
-}
-.header__logo h2 {
-  font-family: "Buyan", sans-serif;
-  font-weight: bold;
-  font-size: 58px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #d5d5d5;
-}
-.header__logo p {
-  font-family: "Buyan", sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  color: #d5d5d5;
-}
-@media screen and (max-width: 767px) {
-  .header__logo h2 {
-    font-size: 72px;
-    line-height: 56px;
-  }
-  .header__logo p {
-    font-size: 20px;
-  }
-}
-.header__logo h2,
-.header__logo p {
+  width: 245px;
+  fill: #d5d5d5;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.header__logo:hover.header__logo h2 {
-  color: #766d7b;
+.header__logo:hover {
+  fill: #766d7b;
 }
-.header__logo:hover.header__logo p {
-  color: #766d7b;
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 300px;
+  }
 }
+
 .header__contacts {
   display: flex;
   align-items: center;
